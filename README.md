@@ -9,7 +9,7 @@ AndroidStudio/IntelliJ IDEA code style settings for Android projects.
 * [AndroidPlatformStyle][platform_style]:  
     a code style that is used by the [Android platform development][android_platform_development_repo]
 * [AndroidModernStyle][modern_style]:  
-  a hybrid code style that mixed the best of [Square's Android code style][square_java_code_style_repo] and AndroidPlatformStyle and AndroidStudioStyle.  
+  a hybrid code style that mixed the best of [Square's Android code style][square_java_code_style_repo] and [AndroidPlatformStyle][platform_style] and [AndroidStudioStyle][studio_style].  
   In addition, add the 'orientation' and 'layout_weight' to xml arrangement
 
 ## Code style comparison table
