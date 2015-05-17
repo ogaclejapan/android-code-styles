@@ -3,14 +3,25 @@
 
 echo "Installing Android code styles..."
 
-for i in $HOME/Library/Preferences/IntelliJIdea*/codestyles \
-         $HOME/Library/Preferences/IdeaIC*/codestyles \
-         $HOME/Library/Preferences/AndroidStudio*/codestyles \
-         $HOME/.IntelliJIdea*/config/codestyles \
-         $HOME/.IdeaIC*/config/codestyles \
-         $HOME/.AndroidStudio*/config/codestyles
+dirs=(
+  $HOME/Library/Preferences/IntelliJIdea*
+  $HOME/Library/Preferences/IdeaIC*
+  $HOME/Library/Preferences/AndroidStudio*
+  $HOME/.IntelliJIdea*/config
+  $HOME/.IdeaIC*/config
+  $HOME/.AndroidStudio*/config
+  )
+
+# Install codestyles
+for dir in "${dirs[@]}"
 do
-  cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/codestyles/* $i 2> /dev/null
+  if [ -e $dir ]; then
+    if [ -d "$dir/codestyles" ]; then
+      cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/codestyles/* "$dir/codestyles" 2> /dev/null
+    else
+      cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/codestyles $dir 2> /dev/null
+    fi
+  fi
 done
 
 echo "Done."
