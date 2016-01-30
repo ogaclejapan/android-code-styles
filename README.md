@@ -14,9 +14,9 @@ AndroidStudio/IntelliJ IDEA code style settings for Android projects.
 
 ## Code style comparison table
 
-* [General][wiki_code_style_general]
-* [Java][wiki_code_style_java]
-* [XML][wiki_code_style_xml]
+* [General][comparison_table_code_style_general]
+* [Java][comparison_table_code_style_java]
+* [XML][comparison_table_code_style_xml]
 
 ## Installation
 
@@ -36,6 +36,7 @@ Inspired by [java-code-styles][square_java_code_style_repo] in Square, Inc.
 [square_java_code_style_repo]: https://github.com/square/java-code-styles
 [square_style]: https://github.com/square/java-code-styles/blob/master/configs/SquareAndroid.xml
 [android_platform_development_repo]: https://github.com/android/platform_development
-[wiki_code_style_general]: https://github.com/ogaclejapan/android-code-styles/wiki/CodeStyle:--General
-[wiki_code_style_java]: https://github.com/ogaclejapan/android-code-styles/wiki/CodeStyle:--Java
-[wiki_code_style_xml]: https://github.com/ogaclejapan/android-code-styles/wiki/CodeStyle:--XML
+[comparison_table_code_style_general]: https://github.com/ogaclejapan/android-code-styles/blob/master/comparison-table/GENERAL.md
+[comparison_table_code_style_java]: https://github.com/ogaclejapan/android-code-styles/blob/master/comparison-table/JAVA.md
+[comparison_table_code_style_xml]: https://github.com/ogaclejapan/android-code-styles/blob/master/comparison-table/XML.md
+
