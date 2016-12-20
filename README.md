@@ -30,6 +30,10 @@ AndroidStudio/IntelliJ IDEA code style settings for Android projects.
 
 Inspired by [java-code-styles][square_java_code_style_repo] in Square, Inc.
 
+## License
+
+[![Public domain](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
 [studio_style]: https://github.com/ogaclejapan/android-code-styles/blob/master/codestyles/AndroidStudioStyle.xml
 [modern_style]: https://github.com/ogaclejapan/android-code-styles/blob/master/codestyles/AndroidModernStyle.xml
 [platform_style]: https://github.com/ogaclejapan/android-code-styles/blob/master/codestyles/AndroidPlatformStyle.xml
